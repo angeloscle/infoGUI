@@ -139,7 +139,7 @@ snapMenu() {
             updatesFile="updates.txt"
             [ -f "$updatesFile" ] || touch "$updatesFile"
                 (
-                echo "$PASS" | sudo apt update >"$updatesFile" 2>&1
+                echo "$PASS" | sudo -S apt update >"$updatesFile" 2>&1
                 echo "done" >> "$updatesFile"
                 ) &
             {
