@@ -1,10 +1,10 @@
 # SysSnap
 ## Linux System & Network Management Script
 
-SysSnap is a bash shell script that provides an interactive dialog-based GUI to manage system updates, Snap packages, and network/system information. It’s designed for Linux systems (tested on Linux Mint/Ubuntu) and uses dialog for menus and information display.
+SysSnap is a dialog-based bash shell script to manage system updates, Snap packages, and network/system information.
 
 
-### 📋 SysSnap Main Menu
+### 📋 Main Menu
 ```
 ├── 0) Show Disk Space
 ├── 1) System Info
@@ -25,11 +25,11 @@ SysSnap is a bash shell script that provides an interactive dialog-based GUI to 
 └── 8) Exit
 ```
 
-### 🗂️ Main Menu Options
+### 🗂️ Menu Options
 
 * Show Disk Space – Displays disk usage of the main filesystem.
 * System Info – Opens a submenu for memory, CPU, and system load info.
-* Network Tools – Opens a submenu for public IP, active connections, and IPs for all connected network profiles.
+* Network Tools – Opens a submenu for public IP, active connections, and IPs for all active network profiles.
 * Get Updates – Scans for available APT package updates and closes.
 * Install updates - Select to update individual or all available updates from the list.
 * Show All Snap Versions – Lists installed Snap packages (excluding disabled ones).(If snap is found)
