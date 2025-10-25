@@ -1,7 +1,7 @@
 # SysSnap
 ## Linux System & Network Management Script
 
-SysSnap is a dialog-based bash shell script to manage system updates, Snap packages, and network/system information.
+A dumb dialog-based bash shell script to manage system updates, Snap packages, and network/system information.
 
 
 ### 📋 Main Menu
