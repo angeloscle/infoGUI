@@ -1,7 +1,7 @@
 # SysSnap
 ## Linux System & Network Management Script
 
-A dumb dialog-based bash shell script to manage system updates, Snap packages, and network/system information.
+A dumb dialog-based shell script for managing system updates, Snap packages, and network/system information.
 
 
 ### 📋 Main Menu
@@ -13,7 +13,7 @@ A dumb dialog-based bash shell script to manage system updates, Snap packages, a
 │    ├── 3) System Load
 │    └── 4) Back
 ├── 2) Network Tools
-│    ├── 1) Check Public IP
+│    ├── 1) View Public IP
 │    ├── 2) View Active Connections
 │    ├── 3) Show Local IPs
 │    └── 4) Back
