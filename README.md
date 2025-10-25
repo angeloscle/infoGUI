@@ -4,7 +4,7 @@
 A dumb dialog-based shell script for managing system updates, Snap packages, and network/system information.
 
 
-### 📋 Main Menu
+#### 📋 Main Menu
 ```
 ├── 0) Show Disk Space
 ├── 1) System Info
@@ -25,7 +25,7 @@ A dumb dialog-based shell script for managing system updates, Snap packages, and
 └── 8) Exit
 ```
 
-### 🗂️ Menu Options
+#### Menu Options
 
 * Show Disk Space – Displays disk usage of the main filesystem.
 * System Info – Opens a submenu for memory, CPU, and system load info.
@@ -37,7 +37,7 @@ A dumb dialog-based shell script for managing system updates, Snap packages, and
 * Delete Snap Cache – Shows cache size and allows deletion.(If snap is found)
 * Exit – Closes the script.
 
-### ⚙️ Requirements
+#### Requirements
 
 * dialog package installed
 * nmcli (NetworkManager CLI) for network info
